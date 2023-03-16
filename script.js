@@ -47,8 +47,7 @@ if (count != 0) {
   set_keys();
 }
 
-const add_data = (event) => {
-  event.preventDefault();
+const add_data = () => {
   let text = document.querySelector(".text").value;
   if (text.trim() == "") {
     alert("can't add empty task");
